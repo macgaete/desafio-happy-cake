@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Teko:wght@300..700&display=swap');
+
+body{
+  margin: 0;
+  background-color: #6796EE;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#8F74CF;
+  color: white;
+  font-family: "Single Day", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.nav h1{
+  margin: 10px;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.nav img{
+  height: 100px;
+  padding: 5px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+.textonav{
+margin: 10px;
+color: #AC266C;
+font-size: 30px;
+}
+
+.sobreus{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  margin-left: 100px;
+}
+
+.sobreus img{
+  height: 500px;
+  width:fit-content ;
+
+}
+
+.home{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  margin-left: 100px;
+}
+
+.home img{
+  display: flex;
+  height: 600px;
+  width: fit-content;
+  align-items: center;
+}
+
+.contacto{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  margin-left: 100px;
+  font-size: 20px;
+}
+
+.contacto img{
+  height: 200px;
+  width: fit-content;
+  align-items: center;
+}
+
+.datos button{
+background-color: #8F74CF;
+border-radius: 5px;
+padding: 10px;
+margin-left: 10px;
+}
+
+.datos input{
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
